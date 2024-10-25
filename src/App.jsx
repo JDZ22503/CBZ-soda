@@ -1,4 +1,4 @@
-// App.jsx
+
 import React from 'react';
 import MainBody from './components/MainBody';
 import FAQ from './components/FAQ/FAQ';
@@ -13,7 +13,6 @@ const router = createBrowserRouter([
     path: '/',
     element: (
       <>
-        
         <MainBody />
         <FAQ />
         <Footer />
