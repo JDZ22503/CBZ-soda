@@ -10,7 +10,7 @@ import Navbar from './components/Navbar';
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: '/cbz-soda/',
     element: (
       <>
         
@@ -21,7 +21,7 @@ const router = createBrowserRouter([
     ),
   },
   {
-    path: '/contact',
+    path: '/cbz-soda/contact',
     element: (
       <>
         <Contact />
@@ -30,7 +30,7 @@ const router = createBrowserRouter([
     ),
   },
   {
-    path: '/about',
+    path: '/cbz-soda/about',
     element: (
       <>
      
