@@ -13,7 +13,7 @@ const router = createBrowserRouter([
     path: '/',
     element: (
       <>
-        
+       
         <MainBody />
         <FAQ />
         <Footer />
@@ -25,7 +25,6 @@ const router = createBrowserRouter([
     element: (
       <>
         <Contact />
-        <Footer />
       </>
     ),
   },
@@ -33,9 +32,7 @@ const router = createBrowserRouter([
     path: '/about',
     element: (
       <>
-     
         <About />
-        <Footer />
       </>
     ),
   },
